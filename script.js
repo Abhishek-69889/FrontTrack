@@ -1,49 +1,153 @@
 const topics = {
   HTML: {
     basic: [
-      "HTML Boilerplate", "Elements, Tags, and Attributes", "Headings, Lists, Forms", "Semantic HTML", "Tables"
+      "HTML Boilerplate",
+      "Elements, Tags, and Attributes",
+      "Headings and Paragraphs",
+      "Lists (ul, ol, li)",
+      "Forms and Input Elements",
+      "Semantic HTML (section, article, header, footer)",
+      "Tables (thead, tbody, tr, td, th)"
     ],
     intermediate: [
-      "Form validation", "Meta Tags", "HTML5 APIs", "Iframes", "Audio/Video tags"
+      "Form Validation (required, pattern, type)",
+      "Meta Tags (title, description, viewport)",
+      "HTML5 APIs Overview (Geolocation, Local Storage)",
+      "Iframes",
+      "Embedding Media (Audio & Video tags)"
     ],
     advanced: [
-      "Accessibility (ARIA)", "Web Components", "HTML parsing", "Progressive Enhancement", "Security: XSS"
+      "Accessibility (Alt text, ARIA labels, role)",
+      "Custom Elements (Web Components Basics)",
+      "Progressive Enhancement Concepts",
+      "Security: Avoiding XSS in HTML",
+      "Understanding HTML Parsing & DOM Tree"
     ]
   },
+
   CSS: {
     basic: [
-      "Selectors & Specificity", "Box Model", "Typography", "Units (px, em, rem)", "Positioning"
+      "What is CSS & How to Link it (Inline, Internal, External)",
+      "CSS Syntax (Property: Value)",
+      "Common CSS Properties:",
+      [
+        "color – Text color",
+        "background-color – Element background",
+        "font-size – Size of the text",
+        "font-family – Type of font",
+        "font-weight – Bold, normal, etc.",
+        "text-align – Align text left, right, center",
+        "line-height – Space between lines of text"
+      ],
+      "Box Model Explained:",
+      [
+        "margin – Space outside the element",
+        "padding – Space inside the element",
+        "border – Line around the element",
+        "width & height – Size of the element"
+      ],
+      "CSS Units:",
+      [
+        "px – Pixels (absolute)",
+        "%, em, rem – Relative units"
+      ],
+      "CSS Selectors:",
+      [
+        "Element Selector (p, h1)",
+        "Class Selector (.class)",
+        "ID Selector (#id)",
+        "Group Selector (h1, p)",
+        "Universal Selector (*)"
+      ],
+      "Display Property:",
+      [
+        "block, inline, inline-block, none"
+      ],
+      "Position Property:",
+      [
+        "static, relative, absolute, fixed"
+      ]
     ],
     intermediate: [
-      "Flexbox", "Grid", "Media Queries", "Pseudo-classes", "Transitions & Animations"
+      "Flexbox – One-Dimensional Layout",
+      "CSS Grid – Two-Dimensional Layout",
+      "Media Queries – Responsive Design",
+      "Pseudo-classes – :hover, :active, :nth-child",
+      "Transitions & Basic Animations"
     ],
     advanced: [
-      "CSS Variables", "Preprocessors", "CSS Methodologies", "Performance Optimization", "Dark Mode"
+      "CSS Variables (Custom Properties)",
+      "SCSS / SASS (Preprocessors Basics)",
+      "BEM Naming Convention (CSS Architecture)",
+      "Dark Mode with prefers-color-scheme",
+      "CSS Optimization & Best Practices"
     ]
   },
+
   JavaScript: {
     basic: [
-      "Variables and Data Types", "Control Flow", "DOM Manipulation", "Functions and Scope", "Events"
+      "What is JavaScript & How it Runs in Browser",
+      "Variables and Data Types (var, let, const, string, number, boolean, null, undefined)",
+      "Operators (Arithmetic, Assignment, Comparison, Logical)",
+      "Control Flow (if, else, switch, loops: for, while)",
+      "Functions and Scope (function declaration, return, local/global scope)",
+      "Events (click, input, mouseover, etc.)",
+      "DOM Manipulation (getElementById, querySelector, innerText, innerHTML)",
+      "Arrays and Objects Basics (creation, access, loop)",
+      "Basic String and Number Methods"
     ],
     intermediate: [
-      "Closures", "Promises & async/await", "Array Methods", "Modules", "Event Bubbling"
+      "Array Methods (map, filter, reduce, forEach, find)",
+      "Object Manipulation (destructuring, shorthand, Object.keys/values)",
+      "Functions Advanced (Arrow Functions, Callback Functions)",
+      "Closures and Lexical Scope",
+      "Promises and async/await (API calls, chaining)",
+      "Event Bubbling & Delegation",
+      "ES6+ Features (let/const, template literals, spread/rest, default params)",
+      "Modules (import/export basics)"
     ],
     advanced: [
-      "Debounce/Throttle", "Call Stack & Event Loop", "Memory Management", "Design Patterns", "Security: CORS/XSS"
+      "Call Stack, Web APIs, Callback Queue, Event Loop",
+      "Debounce and Throttle (Performance Optimization)",
+      "Memory Management (Garbage Collection Basics)",
+      "Error Handling (try/catch, finally)",
+      "Security Concepts: CORS, XSS, Same-Origin Policy",
+      "Design Patterns Basics (Module, Observer)",
+      "JavaScript in the Browser vs Node.js Overview"
     ]
   },
+
   React: {
     basic: [
-      "JSX", "Functional Components", "Props & State", "Conditional Rendering", "Lists & Keys"
+      "What is React and Why Use It",
+      "JSX Syntax and Rules",
+      "Functional Components",
+      "Props (Passing Data Between Components)",
+      "State (useState Basics)",
+      "Conditional Rendering (if, &&, ternary)",
+      "Rendering Lists with .map() & Using Keys",
+      "Component Reusability & Structure"
     ],
     intermediate: [
-      "useEffect/useState", "Forms", "Routing", "Custom Hooks", "Context API"
+      "useEffect Hook (Side Effects)",
+      "Handling Forms & Input Events",
+      "React Router Basics (Routing Pages)",
+      "Lifting State Up & Prop Drilling",
+      "Creating and Using Custom Hooks",
+      "Context API (Global State Management)"
     ],
     advanced: [
-      "Performance Optimization", "useReducer", "Error Boundaries", "React Query", "SSR/Next.js"
+      "Performance Optimization (React.memo, lazy, Suspense)",
+      "useReducer for Complex State",
+      "Error Boundaries (Handling UI Errors)",
+      "React Query (Data Fetching & Caching)",
+      "SSR vs CSR (Next.js Basics)",
+      "React DevTools & Debugging Tips",
+      "Best Practices & Folder Structure"
     ]
   }
 };
+
 
 function loadState(section, item) {
   return JSON.parse(localStorage.getItem(`fd_${section}_${item}`)) || false;
