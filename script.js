@@ -4,6 +4,7 @@ const topics = {
       "HTML Boilerplate",
       "Elements, Tags, and Attributes",
       "Headings and Paragraphs",
+      "Anchor and Image",
       "Lists (ul, ol, li)",
       "Forms and Input Elements",
       "Semantic HTML (section, article, header, footer)",
