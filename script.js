@@ -13,7 +13,6 @@ const topics = {
     intermediate: [
       "Form Validation (required, pattern, type)",
       "Meta Tags (title, description, viewport)",
-      "HTML5 APIs Overview (Geolocation, Local Storage)",
       "Iframes",
       "Embedding Media (Audio & Video tags)"
     ],
