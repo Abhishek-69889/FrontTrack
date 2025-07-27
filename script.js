@@ -29,44 +29,41 @@ const topics = {
     basic: [
       "What is CSS & How to Link it (Inline, Internal, External)",
       "CSS Syntax (Property: Value)",
-      "Common CSS Properties:",
-      [
-        "color – Text color",
-        "background-color – Element background",
-        "font-size – Size of the text",
-        "font-family – Type of font",
-        "font-weight – Bold, normal, etc.",
-        "text-align – Align text left, right, center",
-        "line-height – Space between lines of text"
-      ],
-      "Box Model Explained:",
-      [
-        "margin – Space outside the element",
-        "padding – Space inside the element",
-        "border – Line around the element",
-        "width & height – Size of the element"
-      ],
-      "CSS Units:",
-      [
-        "px – Pixels (absolute)",
-        "%, em, rem – Relative units"
-      ],
-      "CSS Selectors:",
-      [
-        "Element Selector (p, h1)",
-        "Class Selector (.class)",
-        "ID Selector (#id)",
-        "Group Selector (h1, p)",
-        "Universal Selector (*)"
-      ],
-      "Display Property:",
-      [
-        "block, inline, inline-block, none"
-      ],
-      "Position Property:",
-      [
-        "static, relative, absolute, fixed"
-      ]
+      "Common CSS Properties",
+      // [
+      //   "color – Text color",
+      //   "background-color – Element background",
+      //   "font-size – Size of the text",
+      //   "font-family – Type of font",
+      //   "font-weight – Bold, normal, etc.",
+      //   "text-align – Align text left, right, center",
+      //   "line-height – Space between lines of text"
+      // ],
+      "Box Model Explained",
+      // [
+      //   "margin – Space outside the element",
+      //   "padding – Space inside the element",
+      //   "border – Line around the element",
+      //   "width & height – Size of the element"
+      // ],
+      "CSS Units",
+      // [
+      //   "px – Pixels (absolute)",
+      //   "%, em, rem – Relative units"
+      // ],
+      "CSS Selectors",
+      // [
+      //   "Element Selector (p, h1)",
+      //   "Class Selector (.class)",
+      //   "ID Selector (#id)",
+      //   "Group Selector (h1, p)",
+      //   "Universal Selector (*)"
+      // ],
+      "Display Property:- block , inline , inline-block, none",
+      // [
+      //   "block, inline, inline-block, none"
+      // ],
+      "Position Property: static, relative, absolute, fixed"
     ],
     intermediate: [
       "Flexbox – One-Dimensional Layout",
