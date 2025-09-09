@@ -68,8 +68,9 @@ const topics = {
     intermediate: [
       "Flexbox – One-Dimensional Layout",
       "CSS Grid – Two-Dimensional Layout",
-      "Media Queries – Responsive Design",
       "Pseudo-classes – :hover, :active, :nth-child",
+      "Pseudo-elements – ::before, ::after",
+      "Media Queries – Responsive Design",
       "Transitions & Basic Animations"
     ],
     advanced: [
