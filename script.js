@@ -135,37 +135,54 @@ const topics = {
   },
 
   JavaScript: {
-    basic: [
-      "What is JavaScript & How it Runs in Browser",
-      "Variables and Data Types (var, let, const, string, number, boolean, null, undefined)",
-      "Operators (Arithmetic, Assignment, Comparison, Logical)",
-      "Control Flow (if, else, switch, loops: for, while)",
-      "Functions and Scope (function declaration, return, local/global scope)",
-      "Events (click, input, mouseover, etc.)",
-      "DOM Manipulation (getElementById, querySelector, innerText, innerHTML)",
-      "Arrays and Objects Basics (creation, access, loop)",
-      "Basic String and Number Methods"
-    ],
-    intermediate: [
-      "Array Methods (map, filter, reduce, forEach, find)",
-      "Object Manipulation (destructuring, shorthand, Object.keys/values)",
-      "Functions Advanced (Arrow Functions, Callback Functions)",
-      "Closures and Lexical Scope",
-      "Promises and async/await (API calls, chaining)",
-      "Event Bubbling & Delegation",
-      "ES6+ Features (let/const, template literals, spread/rest, default params)",
-      "Modules (import/export basics)"
-    ],
-    advanced: [
-      "Call Stack, Web APIs, Callback Queue, Event Loop",
-      "Debounce and Throttle (Performance Optimization)",
-      "Memory Management (Garbage Collection Basics)",
-      "Error Handling (try/catch, finally)",
-      "Security Concepts: CORS, XSS, Same-Origin Policy",
-      "Design Patterns Basics (Module, Observer)",
-      "JavaScript in the Browser vs Node.js Overview"
-    ]
-  },
+  basic: [
+    "What is JavaScript & How it Runs in Browser (JS Engine, Interpreter, JIT Compilation)",
+    "Variables and Data Types (var, let, const, string, number, boolean, null, undefined)",
+    "Hoisting and Temporal Dead Zone (TDZ)",
+    "Operators (Arithmetic, Assignment, Comparison, Logical, Ternary, Typeof)",
+    "Control Flow (if, else, switch, loops: for, while, do-while)",
+    "Functions and Scope (Function Declaration, Expression, Local/Global Scope)",
+    "Execution Context and Call Stack (Creation Phase, Execution Phase)",
+    "Events (click, input, mouseover, etc.) and Event Listeners",
+    "DOM Manipulation (getElementById, querySelector, innerText, innerHTML)",
+    "Arrays and Objects Basics (creation, access, loop, push/pop)",
+    "Basic String and Number Methods",
+    "Type Conversion (Implicit & Explicit Coercion)"
+  ],
+
+  intermediate: [
+    "Array Methods (map, filter, reduce, forEach, find, some, every)",
+    "Object Manipulation (destructuring, shorthand, Object.keys/values/entries)",
+    "Functions Advanced (Arrow Functions, Callback Functions, Function Parameters)",
+    "Closures and Lexical Scope (Practical Examples)",
+    "Hoisting in Functions and Variables (Detailed)",
+    "Promises and async/await (API calls, chaining, error handling)",
+    "Event Bubbling, Capturing, and Delegation",
+    "ES6+ Features (let/const, template literals, spread/rest, default params, for...of)",
+    "Modules (import/export basics, file structuring)",
+    "‘this’ Keyword (Implicit, Explicit, Arrow Function Binding)",
+    "Prototype and Prototypal Inheritance (Object.__proto__, prototype chain)",
+    "Set, Map, WeakSet, WeakMap (Difference & Use-Cases)"
+  ],
+
+  advanced: [
+    "Call Stack, Web APIs, Callback Queue, Event Loop (Async Flow Visualization)",
+    "Debounce and Throttle (Performance Optimization)",
+    "Memory Management (Garbage Collection Basics, Memory Leaks)",
+    "Error Handling (try/catch, finally, custom errors, throw)",
+    "JavaScript Engine Internals (V8, Parsing, Compilation)",
+    "Execution Context Types (Global, Functional, Eval)",
+    "Temporal Dead Zone (TDZ) and Variable Lifecycle",
+    "Shadowing and Block Scope Behavior",
+    "Currying and Function Composition",
+    "Design Patterns Basics (Module, Observer, Singleton)",
+    "Security Concepts: CORS, XSS, Same-Origin Policy, CSRF",
+    "Microtasks and Macrotasks (queueMicrotask, setTimeout, Promises)",
+    "JavaScript in the Browser vs Node.js (Environment, APIs)",
+    "Event Loop in Node.js vs Browser",
+    "Performance Optimization (Minification, Caching, Async Scripts)"
+  ]
+},
 
   React: {
     basic: [
