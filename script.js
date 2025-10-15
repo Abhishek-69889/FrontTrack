@@ -138,6 +138,7 @@ const topics = {
   basic: [
     "What is JavaScript & How it Runs in Browser (JS Engine, Interpreter, JIT Compilation)",
     "Variables and Data Types (var, let, const, string, number, boolean, null, undefined)",
+    "Scope-Block & Function",
     "Hoisting and Temporal Dead Zone (TDZ)",
     "Operators (Arithmetic, Assignment, Comparison, Logical, Ternary, Typeof)",
     "Control Flow (if, else, switch, loops: for, while, do-while)",
