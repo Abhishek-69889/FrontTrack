@@ -213,6 +213,35 @@ const topics = {
       "React DevTools & Debugging Tips",
       "Best Practices & Folder Structure"
     ]
+  },
+  "Redux": {
+    "basic": [
+      "What is Redux and Why Use It",
+      "Core Principles: Single Source of Truth, State is Read-Only, Changes via Pure Functions",
+      "Actions: Definition and Usage",
+      "Reducers: How to Update State",
+      "Store: Creating and Accessing Store",
+      "Dispatching Actions",
+      "Connecting Redux with React using useSelector & useDispatch"
+    ],
+    "intermediate": [
+      "Middleware: What is Middleware in Redux",
+      "Async Actions using redux-thunk",
+      "Redux Toolkit: createSlice, configureStore, createAsyncThunk",
+      "Normalizing State for Large Applications",
+      "Combining Reducers",
+      "Handling Side Effects",
+      "Integration with React Router"
+    ],
+    "advanced": [
+      "Performance Optimization (avoiding unnecessary re-renders)",
+      "Best Practices & Folder Structure for Redux",
+      "Debugging Redux with Redux DevTools",
+      "Testing Redux (Reducers, Actions, Selectors)",
+      "Advanced Middleware (redux-saga / redux-observable)",
+      "Using Redux with TypeScript (Optional)",
+      "Migrating from Context API or Local State to Redux"
+    ]
   }
 };
 
